@@ -53,6 +53,7 @@ config :live_view_demo, LiveViewDemoWeb.Endpoint,
       ~r{priv/gettext/.*(po)$},
       ~r{lib/live_view_demo_web/views/.*(ex)$},
       ~r{lib/live_view_demo_web/templates/.*(eex)$}
+      ~r{lib/live_view_demo_web/live/.*(ex)$}
     ]
   ]
 
