@@ -41,7 +41,7 @@ defmodule LiveViewDemoWeb do
 
       import LiveViewDemoWeb.ErrorHelpers
       import LiveViewDemoWeb.Gettext
-      import Phoenix.LiveView, only [live_render: 2, live_render: 3]
+      import Phoenix.LiveView, only: [live_render: 2, live_render: 3]
       alias LiveViewDemoWeb.Router.Helpers, as: Routes
     end
   end
